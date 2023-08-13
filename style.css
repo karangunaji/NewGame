@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(40, 43, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+#main {
+    background-color: rgb(195, 247, 195);
+    height: 80%;
+    width: 80%;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ptop {
+    height: 80px;
+    background-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 20%;
+    text-align: center;
+    color: #fff;
+}
+.info{
+    background-color: rgb(190, 185, 185);
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.ptop .box {
+    background-color: #f5efef;
+    color: black;
+    padding: 5px;
+    border: 5px;
+    box-shadow: 1px 1px 5px rgb(95, 92, 92);
+}
+.ptop h2 {
+    font-size: 18px;
+}
+#finalScore {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pbtm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.pbtm .bubbles {
+    color: white;
+    background-color: green;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.pbtm .bubbles:hover{
+    background-color: rgb(3, 53, 3);
+    cursor: pointer;
+}
